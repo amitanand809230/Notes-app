@@ -35,7 +35,7 @@ const NoteItem = memo(({ note }) => {
           <div className="flex gap-4">
             <button
               onClick={() => setShowModal(true)}
-              className="text-green-600 font-semibold hover:text-green-800"
+              className="text-green-600 bg-gray-100 rounded px-1  border font-semibold hover:text-green-800 hover:scale-95"
             >
               Edit
             </button>
@@ -43,8 +43,8 @@ const NoteItem = memo(({ note }) => {
             <button
               onClick={handleDelete}
               disabled={deleting}
-              className={`font-semibold ${
-                deleting ? "text-gray-400" : "text-red-600 hover:text-red-800"
+              className={`font-semibold text-gray-200 px-2.5 border border-black rounded hover:scale-95 ${
+                deleting ? "bg-red-500" : "hover:text-white bg-red-600 hover:bg-red-700"
               }`}
             >
               {deleting ? "Deleting..." : "Delete"}
