@@ -1,9 +1,10 @@
 import { memo, useMemo } from "react";
 import { useNotes } from "../context/NotesContext";
 import NotesItem from "./NotesItem";
+import NoteSkeleton from "./NotesSkeleton";
 
 const NotesList = memo( ()=> {
-    const { notes, loading, error } = useNotes()
+    const { notes, loading, error,hasLoaded } = useNotes()
 
     /* MEMOIZED NOTES LIST */
 
@@ -16,15 +17,13 @@ const NotesList = memo( ()=> {
 
     /* LOADING STATE */
 
-    if(loading) {
+    if(!hasLoaded || loading) {
         return (
             <div
             role="status" 
             className="space-y-3 animate-pulse">
                 {[...Array(3)].map((_, i) => (
-                    <div 
-                    key={i}
-                     className="bg-gray-200 h-20 rounded"/>
+                     <NoteSkeleton key={i} />
                 ))}
             </div>
         )
