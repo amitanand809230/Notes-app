@@ -1,0 +1,54 @@
+{
+  "notes": [
+    {
+      "id": "f399",
+      "title": "Daily Goals",
+      "content": "Today I want to focus on completing my React project features, practicing one coding problem, and reading about performance optimization. I will avoid distractions and track my progress every 2 hours."
+    },
+    {
+      "id": "07de",
+      "title": "React Performance Tips",
+      "content": "Use React.memo to prevent unnecessary re-renders.\nUse useCallback for stable function references.\nUse useMemo for expensive calculations.\nLazy load components using React.lazy() and Suspense."
+    },
+    {
+      "id": "cce4",
+      "title": "JavaScript Interview Prep",
+      "content": "Revise closures, promises, async/await, event loop, and hoisting.\nPractice array methods like map, filter, reduce.\nPrepare output-based questions."
+    },
+    {
+      "id": "46d1",
+      "title": "Project Ideas",
+      "content": "Build a notes app with search and tags.\nCreate a weather dashboard using API.\nDevelop a task manager with drag and drop.\nMake a portfolio with animations."
+    },
+    {
+      "id": "6ba8",
+      "title": "Learning Plan",
+      "content": "Week 1 → Advanced JavaScript\nWeek 2 → React hooks deep dive\nWeek 3 → Next.js routing and API\nWeek 4 → Build full project"
+    },
+    {
+      "id": "2c9a",
+      "title": "Books to Read",
+      "content": "Clean Code — Robert C. Martin\nYou Don’t Know JS — Kyle Simpson\nAtomic Habits — James Clear\nDeep Work — Cal Newport"
+    },
+    {
+      "id": "0ca9",
+      "title": "Fitness Routine",
+      "content": "Morning walk 30 minutes\nPushups 3 sets\nStretching 10 minutes\nDrink 3 liters of water daily"
+    },
+    {
+      "id": "df1f",
+      "title": "Motivation Note",
+      "content": "Stay consistent even when progress feels slow.\nSmall daily improvements lead to big success.\nDiscipline beats motivation."
+    },
+    {
+      "id": "b896",
+      "title": "UI Design Tips",
+      "content": "Use consistent spacing.\nFollow color hierarchy.\nKeep typography readable.\nAvoid clutter.\nDesign mobile first."
+    },
+    {
+      "id": "93cf",
+      "title": "Important Reminders",
+      "content": "Submit assignment before Friday.\nUpdate LinkedIn profile.\nPractice coding daily.\nBackup project files."
+    }
+  ]
+}
